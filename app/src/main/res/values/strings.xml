@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nama Aplikasi & Institusi -->
+    <string name="app_name">Buku Kontak Mahasiswa ITS</string>
+    <string name="institution_name">Institut Teknologi Sepuluh Nopember</string>
+    <string name="faculty_name">Fakultas Teknologi Elektro dan Informatika Cerdas</string>
+
+    <!-- Judul Form & Dialog -->
+    <string name="title_add_mhs">Tambah Kontak Mahasiswa</string>
+    <string name="title_edit_mhs">Edit Kontak Mahasiswa</string>
+    <string name="title_detail_mhs">Profil Kontak Mahasiswa</string>
+
+    <!-- Form Labels & Hints -->
+    <string name="label_nama">Nama Lengkap Mahasiswa</string>
+    <string name="hint_nama">Contoh: Rayhan Agnan Kusuma</string>
+    <string name="label_nim">NRP / NIM</string>
+    <string name="hint_nim">Contoh: 5027241102</string>
+    <string name="label_nohp">Nomor Telepon / WhatsApp</string>
+    <string name="hint_nohp">Contoh: 081234567890</string>
+    <string name="label_jurusan">Departemen / Program Studi</string>
+    <string name="hint_jurusan">Contoh: Teknologi Informasi</string>
+    <string name="label_angkatan">Tahun Angkatan</string>
+    <string name="hint_angkatan">Contoh: 2024</string>
+
+    <!-- Tombol Aksi -->
+    <string name="btn_save">Simpan Kontak</string>
+    <string name="btn_edit">Edit Data</string>
+    <string name="btn_delete">Hapus Kontak</string>
+    <string name="btn_call">Hubungi (Telepon)</string>
+    <string name="btn_message">Kirim Pesan (SMS/WA)</string>
+
+    <!-- Dialog Konfirmasi Hapus -->
+    <string name="dialog_delete_title">Hapus Kontak Mahasiswa</string>
+    <string name="dialog_delete_message">Apakah Anda yakin ingin menghapus kontak %1$s (%2$s) dari database SQLite ITS? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="dialog_yes">Ya, Hapus</string>
+    <string name="dialog_no">Batal</string>
+
+    <!-- Placeholder Kosong -->
+    <string name="text_empty">Belum Ada Kontak Mahasiswa</string>
+    <string name="text_empty_hint">Ketuk tombol Tambah di bawah untuk menambahkan data kontak mahasiswa baru via AlertDialog.</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_save_success">Kontak mahasiswa berhasil disimpan ke SQLite</string>
+    <string name="toast_save_failed">Gagal menyimpan (NRP/NIM sudah terdaftar)</string>
+    <string name="toast_update_success">Data kontak berhasil diperbarui di SQLite</string>
+    <string name="toast_update_failed">Gagal memperbarui data kontak</string>
+    <string name="toast_delete_success">Kontak mahasiswa berhasil dihapus dari database</string>
+    <string name="toast_delete_failed">Gagal menghapus kontak</string>
+
+    <!-- Error Validasi -->
+    <string name="error_nama_empty">Nama lengkap mahasiswa wajib diisi</string>
+    <string name="error_nim_empty">NRP/NIM wajib diisi</string>
+    <string name="error_nohp_empty">Nomor HP wajib diisi</string>
+    <string name="error_jurusan_empty">Departemen / Jurusan wajib diisi</string>
+    <string name="error_angkatan_empty">Tahun angkatan wajib diisi</string>
+    <string name="error_angkatan_invalid">Angkatan harus berupa 4 digit tahun (contoh: 2024)</string>
+
+    <!-- Content Description -->
+    <string name="desc_empty">Ilustrasi buku kontak kosong</string>
+    <string name="desc_fab_add">Tambah Kontak Baru</string>
+
+    <!-- Menu -->
+    <string name="menu_search">Cari</string>
+    <string name="menu_sort">Urutkan</string>
+    <string name="menu_sort_newest">Terbaru</string>
+    <string name="menu_sort_oldest">Terlama</string>
+    <string name="menu_sort_name_asc">Nama (A - Z)</string>
+    <string name="menu_sort_nim_asc">NRP (Terkecil)</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Pencarian Nama / NIM -->
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <!-- Pilihan Urutan Sortir -->
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/menu_sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_sort_newest"
+                android:title="@string/menu_sort_newest" />
+            <item
+                android:id="@+id/action_sort_oldest"
+                android:title="@string/menu_sort_oldest" />
+            <item
+                android:id="@+id/action_sort_name_asc"
+                android:title="@string/menu_sort_name_asc" />
+            <item
+                android:id="@+id/action_sort_nim_asc"
+                android:title="@string/menu_sort_nim_asc" />
+        </menu>
+    </item>
+
+</menu>
